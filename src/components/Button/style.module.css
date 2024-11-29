@@ -1,0 +1,16 @@
+.btn {
+  --btn-bgcolor: transparent;
+  --btn-color: black;
+
+  &.__primary {
+    --btn-bgcolor: blue;
+    color: white;
+  }
+  &.__secondary {
+    --btn-bgcolor: red;
+    color: white;
+  }
+
+  color: var(--btn-color);
+  background-color: var(--btn-bgcolor);
+}

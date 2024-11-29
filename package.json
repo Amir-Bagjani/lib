@@ -1,0 +1,62 @@
+{
+  "name": "lib20j",
+  "private": false,
+  "version": "0.1.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "vite",
+    "prepublishOnly": "vitest run && yarn run build",
+    "build": "tsc -b && vite build && cat ./src/index.d.ts >> ./dist/index.d.ts",
+    "test": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint . --ext ts,tsx",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "stylelint": "stylelint **/*.css",
+    "stylelint:fix": "stylelint **/*.css --fix",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@storybook/react": "^8.4.5",
+    "@storybook/react-vite": "^8.4.5",
+    "@storybook/test": "^8.4.5",
+    "clsx": "^2.1.1",
+    "glob": "^11.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@storybook/cli": "^8.4.5",
+    "@testing-library/react": "^16.0.1",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/coverage-v8": "^2.1.6",
+    "@vitest/ui": "^2.1.6",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.4.1",
+    "stylelint": "^16.11.0",
+    "stylelint-config-standard": "^36.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-dts": "^4.3.0",
+    "vite-plugin-lib-inject-css": "^2.1.1",
+    "vitest": "^2.1.6"
+  }
+}
