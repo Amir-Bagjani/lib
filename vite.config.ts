@@ -19,8 +19,12 @@ export default defineConfig({
     }),
   ],
   build: {
+    cssCodeSplit: true, 
     lib: {
-      entry: resolve(__dirname, 'src/index.ts'),
+      entry: {
+        index: resolve(__dirname, 'src/index.ts'),
+        button: resolve(__dirname, 'src/components/Button/index.ts')
+      },
       formats: ['es'],
     },
     rollupOptions: {
@@ -36,8 +40,10 @@ export default defineConfig({
         })
       ),
       output: {
+        chunkFileNames: 'chunks/[name].[hash].js',
         entryFileNames: '[name].js',
         assetFileNames: 'assets/[name][extname]',
+        preserveModules: false,
         globals: {
           react: 'React',
           'react-dom': 'React-dom',

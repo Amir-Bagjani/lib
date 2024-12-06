@@ -6,9 +6,23 @@
   "files": [
     "dist"
   ],
-  "exports": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./Button": {
+      "import": "./dist/components/Button/index.js",
+      "types": "./dist/button.d.ts"
+    },
+    "./core.css": {
+      "import": "./src/core.css",
+      "require": "./src/core.css"
+    }
+  },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "start": "vite",
     "prepublishOnly": "vitest run && yarn run build",

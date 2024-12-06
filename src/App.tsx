@@ -1,5 +1,7 @@
 import Button from "./components/Button"
 
+import "./core.css"
+
 export const App = () => {
 
     return(<>

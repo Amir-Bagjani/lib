@@ -3,11 +3,11 @@
   --btn-color: black;
 
   &.__primary {
-    --btn-bgcolor: blue;
+    --btn-bgcolor: var(--color-success);
     color: white;
   }
   &.__secondary {
-    --btn-bgcolor: red;
+    --btn-bgcolor: var(--color-error);
     color: white;
   }
 
