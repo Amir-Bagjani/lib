@@ -1,0 +1,11 @@
+:root {
+  --color-theme-primary: var(--color-dark-cyan-700);
+  --color-theme-secondary: var(--color-blue-gray-600);
+  --color-theme-black: var(--color-gray-900);
+  --color-theme-success: var(--color-green-600);
+  --color-theme-alert: var(--color-yellow-600);
+  --color-theme-warning: var(--color-orange-600);
+  --color-theme-error-danger: var(--color-red-600);
+  --color-theme-info: var(--color-blue-600);
+  --color-theme-accent: var(--color-purple-700);
+}

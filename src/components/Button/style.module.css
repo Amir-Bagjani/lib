@@ -3,7 +3,7 @@
   --btn-color: black;
 
   &.__primary {
-    --btn-bgcolor: var(--color-success);
+    --btn-bgcolor: var(--color-orange-600);
     color: white;
   }
   &.__secondary {

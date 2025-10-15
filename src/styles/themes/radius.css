@@ -1,0 +1,16 @@
+@import './size.css';
+
+:root {
+  --radius-none: 0;
+  --radius-1: var(--size-1);
+  --radius-2: var(--size-2);
+  --radius-4: var(--size-4);
+  --radius-8: var(--size-8);
+  --radius-16: var(--size-16);
+  --radius-24: var(--size-24);
+  --radius-32: var(--size-32);
+  --radius-40: var(--size-40);
+  --radius-48: var(--size-48);
+  --radius-56: var(--size-56);
+  --radius-rounded: 62500rem;
+}

@@ -1,0 +1,74 @@
+@import './size.css';
+
+:root {
+  --font-family: '';
+
+  --line-height-12: var(--size-12);
+  --line-height-14: var(--size-14);
+  --line-height-16: var(--size-16);
+  --line-height-18: var(--size-18);
+  --line-height-20: var(--size-20);
+  --line-height-22: var(--size-22);
+  --line-height-24: var(--size-24);
+  --line-height-26: var(--size-26);
+  --line-height-28: var(--size-28);
+  --line-height-30: var(--size-30);
+  --line-height-32: var(--size-32);
+  --line-height-34: var(--size-34);
+  --line-height-38: var(--size-38);
+  --line-height-42: var(--size-42);
+  --line-height-44: var(--size-44);
+  --line-height-46: var(--size-46);
+  --line-height-48: var(--size-48);
+  --line-height-50: var(--size-50);
+  --line-height-52: var(--size-52);
+  --line-height-54: var(--size-54);
+  --line-height-56: var(--size-56);
+  --line-height-58: var(--size-58);
+  --line-height-60: var(--size-60);
+  --line-height-64: var(--size-64);
+  --line-height-66: var(--size-66);
+  --line-height-68: var(--size-68);
+  --line-height-70: var(--size-70);
+  --line-height-72: var(--size-72);
+  --line-height-74: var(--size-74);
+  --line-height-78: var(--size-78);
+  --line-height-80: var(--size-80);
+  --line-height-84: var(--size-84);
+  --line-height-88: var(--size-88);
+  --line-height-92: var(--size-92);
+  --line-height-98: var(--size-98);
+  --line-height-104: var(--size-104);
+  --line-height-106: var(--size-106);
+  --line-height-112: var(--size-112);
+
+  --font-size-8: var(--size-8);
+  --font-size-10: var(--size-10);
+  --font-size-12: var(--size-12);
+  --font-size-14: var(--size-14);
+  --font-size-16: var(--size-16);
+  --font-size-18: var(--size-18);
+  --font-size-20: var(--size-20);
+  --font-size-22: var(--size-22);
+  --font-size-24: var(--size-24);
+  --font-size-28: var(--size-28);
+  --font-size-32: var(--size-32);
+  --font-size-36: var(--size-36);
+  --font-size-40: var(--size-40);
+  --font-size-44: var(--size-44);
+  --font-size-48: var(--size-48);
+  --font-size-52: var(--size-52);
+  --font-size-56: var(--size-56);
+  --font-size-60: var(--size-60);
+  --font-size-64: var(--size-64);
+  --font-size-72: var(--size-72);
+  --font-size-80: var(--size-80);
+  --font-size-88: var(--size-88);
+  --font-size-96: var(--size-96);
+
+  --font-weight-extra-bold: 800;
+  --font-weight-bold: 700;
+  --font-weight-semi-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+}

@@ -1,0 +1,11 @@
+:root {
+  --border-style-solid: solid;
+  --border-style-dashed: dashed;
+  --border-style-dotted: dotted;
+
+  --border-color-50: var(--color-blue-gray-0);
+  --border-color-100: var(--color-blue-gray-50);
+  --border-color-150: var(--color-blue-gray-100);
+  --border-color-200: var(--color-blue-gray-200);
+  --border-color-300: var(--color-blue-gray-300);
+}

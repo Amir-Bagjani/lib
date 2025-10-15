@@ -1,14 +1,16 @@
+@import './styles/index.css';
+
 /*
 
   CSS Variables Naming Scheme:
     --color-(name)-(shade?) for colors;
     --spacing-(name)-(type)-(variant?)-(state?) for spacings, such as padding, margin;
-    --dim-(name)-(type)-(variant?)-(state?) for dimentions, such as height, radius;
+    --dim-(name)-(type)-(variant?)-(state?) for dimensions, such as height, radius;
     --transition-(name)-(variant?) for transitions;
 */
 
-:root {
-  /* Base Colors */
+/* Base Colors */
+/* :root {
 
   --color-white: #fff;
   --color-white-eggshell: #fafafa;
@@ -90,7 +92,7 @@
   --color-fiord-700: #3b5266;
   --color-fiord-800: #2d3f50;
   --color-fiord-900: #1b2b39;
-}
+} */
 :root,
 .default-theme {
   /* Primary Colors */
