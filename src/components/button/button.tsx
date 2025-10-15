@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import style from './style.module.css'
 
-import { ButtonProps } from './Button.type'
+import { ButtonProps } from './button.type'
 import { FC } from 'react'
 
 const Button: FC<ButtonProps> = (props) => {

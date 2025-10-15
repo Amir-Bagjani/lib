@@ -1,7 +1,7 @@
 {
-  "name": "lib20j",
+  "name": "sanaap-design-system",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.0",
   "type": "module",
   "files": [
     "dist"
@@ -10,10 +10,6 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.js"
-    },
-    "./Button": {
-      "import": "./dist/components/Button/index.js",
-      "types": "./dist/button.d.ts"
     },
     "./core.css": {
       "import": "./src/core.css",

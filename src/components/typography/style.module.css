@@ -1,0 +1,12 @@
+.main {
+  --color: black;
+
+  &.__primary {
+    --color: var(--color-theme-primary);
+  }
+  &.__secondary {
+    --color: var(--color-theme-secondary);
+  }
+
+  color: var(--color);
+}

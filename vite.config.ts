@@ -23,7 +23,7 @@ export default defineConfig({
     lib: {
       entry: {
         index: resolve(__dirname, 'src/index.ts'),
-        button: resolve(__dirname, 'src/components/Button/index.ts')
+        // button: resolve(__dirname, 'src/components/button/index.ts')
       },
       formats: ['es'],
     },
